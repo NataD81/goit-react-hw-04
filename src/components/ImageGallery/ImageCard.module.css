@@ -1,0 +1,14 @@
+.imageCard {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.imageCard:hover {
+  transform: scale(1.05);
+}
+
+.imageCardImg {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}

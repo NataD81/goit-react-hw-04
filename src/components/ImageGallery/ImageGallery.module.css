@@ -1,0 +1,16 @@
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+.imageGalleryItem {
+  /* flex: 1 1 calc(33.333% - 20px); */
+  width: calc((100% - 72px) / 3);
+  margin: 10px;
+}
+.imageGalleryItem:hover {
+  transform: scaleX(1.04) scaleY(1.04);
+}
